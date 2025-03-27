@@ -1,0 +1,6 @@
+body{
+    background-color: $primarycolor;
+    @include respond('1000px'){
+        background-color: pink;
+    }
+}
