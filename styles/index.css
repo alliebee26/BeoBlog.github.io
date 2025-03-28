@@ -1,0 +1,200 @@
+/* makes sizing simpler */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* dark mode user-agent-styles */
+html {
+  color-scheme: dark light;
+}
+
+/* min body height */
+body {
+  min-height: 100vh;
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background-color: #cAE9f5;
+}
+p{
+  color: #000435;
+}
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: #cAE9f5;
+  }
+}/*# sourceMappingURL=index.css.map */
+
+.nav {
+  font-family: "Macondo", serif;
+  background-color: #550000;
+  color: #cAE9f5;
+  font-size: 38px;
+  position: relative;
+ .logo{
+
+  font-family: "Macondo", serif;
+  display: inline;
+  padding: 20px;
+  color: white;
+  font-size: 60px;
+
+  margin-left: 50px;
+  position: absolute;
+  
+ }
+  
+}
+
+
+
+
+.navlinks{
+  margin-left: 780px;
+
+.navitem{
+  display: inline-block;
+padding: 30px;
+
+
+  a {
+    text-align: center;
+   text-decoration: none;
+    color: white;
+    
+    padding: 20px 16px;
+  }
+
+  a:hover{
+    color:  #cAE9f5;;
+    
+  }
+
+  
+}
+}
+
+.header{
+  font-family: "Macondo", Serif;
+  text-align: center;
+  font-size: 50px;
+  color: #2c3180;
+  padding: 30px;
+  background-color: white;
+}
+
+.bodytext{
+padding: 40px;
+font-size: 30px;
+position: relative;
+width: 700px;
+left: 150px;
+  .gogeats{
+    font-size: 50px;
+    padding: 30px;
+    font-family: "Macondo", serif;
+    color: #2c3180;
+   
+  }
+  p{
+    padding: 5px;
+    
+  }
+}
+
+.BlogText{
+  padding: 40px;
+font-size: 20px;
+position: relative;
+width: 50%;
+margin-left: 25%;
+p{
+  padding: 15px;
+
+}
+}
+
+.subtext{
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bloglist{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 40px;
+  flex-shrink: 3;
+  align-items: center;
+  margin-bottom: 50px;
+  .blogitem{
+   padding: 30px;
+    font-size: 30px;
+    background-color: rgb(67, 67, 99);
+  
+    width: 550px;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.buttons{
+    font-family: "Macondo", Serif;
+    
+    background-color: rgb(67, 67, 99);
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    a{
+      text-decoration: none;
+      color: white;
+      
+    }
+    
+}
+
+.previous{
+  position: absolute;
+  left: 300px;
+  bottom: 100px;
+  
+}
+
+.next{
+position: absolute;
+right: 300px;
+bottom: 100px;
+}
+
+.images{
+  img{
+    position: absolute;
+    height: 700px;
+    right: 300px;
+    top: 250px;
+  }
+  
+}
